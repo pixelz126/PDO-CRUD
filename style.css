@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: none;
+    line-height: 1.2;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form.appform{
+    width: 400px;
+    margin: 20px 50px 0 20px;
+    padding: 10px;
+}
+form.appform fieldset{
+    border: solid 1px #e4e4e4;
+    background: #f1f1f1;
+    padding: 10px;
+}
+form.appform fieldset legend{
+    background: #e4e4e4;
+    padding: 5px;
+    color: #666;
+}
+
+form.appform fieldset p.message{
+    background: #27ae60;
+    padding: 5px;
+    color: #ecf0f1;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+form.appform fieldset  p.message.error{
+    background: #E74C3C;
+}
+
+#home{
+    color: red;
+    text-decoration : none;
+}
+
+form.appform table{
+    width: 100%;
+}
+form.appform label{
+    font-size: 0.90em;
+    color: #666;
+    font-weight: bold;
+}
+
+form.appform table tr td input[type=text],
+form.appform table tr td input[type=number]{
+    width: 98%;
+    padding: 2%;
+}
+form.appform table tr td input[type=submit]{
+    margin-top: 8px; 
+    padding: 10px;
+    color: white;
+    background: #27ae60;
+    border-radius: 3px;
+    width: 80px;
+    font-weight: bold;
+    cursor: pointer;
+}
+form.appform table tr td input[type=submit]:hover{
+    margin-top: 8px; 
+    padding: 10px;
+    color: white;
+    background: #2ecc71;
+    border-radius: 3px;
+    font-weight: bold;
+}
+form.appform table tr td {
+    padding: 3px 0;
+}
+
+
+div.wrapper{
+    overflow: hidden;
+}
+
+div.wrapper div.empform{
+    float: left;
+}
+div.wrapper div.employees {
+    float: right;
+}
+div.wrapper div.employees table{
+    width: 750px;
+    margin: 20px 20px 0 0;
+    border-collapse: collapse;
+}
+
+div.wrapper div.employees table thead tr th{
+    text-align: left;
+    padding: 5px;
+    border-right: solid 2px #e4e4e4;
+    border-bottom: solid 2px #e4e4e4;
+}
+
+div.wrapper div.employees table thead tr th:last-of-type{
+    border-right: none;
+    border-left:  solid 2px #e4e4e4;
+}
+
+div.wrapper div.employees table tbody tr td{
+    text-align: left;
+    padding: 5px;
+    border-bottom: solid 1px #e4e4e4;
+}
+div.wrapper div.employees table tbody tr:nth-child(2n) td{
+    background: #f1f1f1;
+}
+
+div.wrapper div.employees table tbody  td a{
+    color: #27ae60;
+    text-decoration : none;
+}
+
